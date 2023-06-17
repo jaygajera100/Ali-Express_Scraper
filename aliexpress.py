@@ -1,4 +1,4 @@
-# pyinstaller --onefile --hidden-import selenium --add-binary "./drivers/chromedriver;./drivers/" amazon.py
+# pyinstaller --onefile --hidden-import selenium --add-binary "./drivers/chromedriver;./drivers/" aliexpress.py
 import csv
 from random import randint
 from selenium import webdriver
@@ -9,7 +9,7 @@ from tkinter import *
 import os
 import time
 import openai
-# openai.api_key = "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"
+# openai.api_key = "sk-......." #Collect it from openai api key
 model_engine = "text-curie-001"
 
 # Project Start From here.
